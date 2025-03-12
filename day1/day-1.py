@@ -18,13 +18,4 @@ list1.sort()
 list2.sort()
 
 totalDiff = 0
-
-for i in range(0, len(list1)):
-    num1 = list1[i]
-    num2 = list2[i]
-    if num1 > num2:
-        totalDiff += list1[i] - list2[i]
-    else:
-        totalDiff += list2[i] - list1[i]
-
 print(totalDiff)
