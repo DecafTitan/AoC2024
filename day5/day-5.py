@@ -47,9 +47,3 @@ for line in data:
         midNumData += int(numbers[midIndex])
 
 print(midNumData)
-
-
-
-
-
-        
