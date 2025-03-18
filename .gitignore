@@ -1,3 +1,4 @@
 .vscode
 .pep8
 *.json
+day5/part2/*.txt
