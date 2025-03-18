@@ -15,13 +15,13 @@ f.close()
 rulesDict = {}
 
 for rule in rules:
-    print(rule)
     splitter = rule.split('|')
     if splitter[0] in rulesDict:
         rulesDict[splitter[0]][splitter[1]] = ''
     else:
         # New dict in rulesDict will contain values that come after the number according to the rules
         rulesDict[splitter[0]] = {}
+        rulesDict[splitter[0]][splitter[1]] = ''
 
 midNumData: int = 0
 
